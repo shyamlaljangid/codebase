@@ -1,0 +1,165 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Roboto;}
+
+#wrapper header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 60px;
+
+}
+#wrapper header h1{
+    color: blue;
+    
+}
+#wrapper header h1 span{
+    color: black;
+}  
+#wrapper header ul {
+    display: flex;
+    list-style:none ;
+}
+#wrapper header ul li{
+    padding: 20px 40px;
+}
+#wrapper header ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 10px 20px;
+}
+#wrapper header ul li:last-child a{
+    background-color: blue;
+    color: rgb(248, 249, 250);
+    border-radius: 5px;
+}
+
+#wrapper .firstpage{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: calc(100vh - 80px);
+}
+.firstpage .firstleft{
+    width: 50%;
+}
+.firstright{
+    width: 50%;
+}
+.firstleft h1{
+    font-size: 60px;
+     padding: 20px 50px;
+}
+.firstleft p{
+    padding: 10px 50px 30px 50px ;
+    font-size: 20px;
+}
+.firstleft a{
+    padding: 10px 30px;
+    margin: 50px ;
+    text-decoration: none;
+    background-color: blue;
+    border-radius: 5px;
+    color: aliceblue;
+}
+.firstright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.secondpage{
+    height: 50vh;
+}
+.secondpage h1{
+    text-align: center;
+    padding: 50px 0  20px 0;
+
+}
+.secondpage a{
+    text-decoration: none;
+    text-align: center;
+    padding: 25px;
+
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+.img img{
+    width:80%;
+    height: 40px;
+
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+   
+    text-align: center;
+    padding-bottom: 50px;
+}
+.box{
+    display: flex;
+    
+    flex-direction: column;
+     align-items: center;
+    border: 2px solid black;
+    height: 400px;
+    width: 25%;
+    margin: 10px;
+    border-radius: 10px;
+}
+.box img{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 130px;
+    width: 130px;
+margin: 20px;
+
+
+}
+.box h3{
+    padding: 10px 0x;
+}
+.box span{
+    padding: 10px 0;
+}
+.box p{
+    padding: 10px ;
+}
+.box ul{
+list-style: none;
+display: flex;
+justify-content: center;
+text-align: center;
+flex-wrap: wrap;
+width: 88%;
+
+}
+.box ul li{
+    padding: 5px 10px;
+    margin: 2px;
+    border-radius: 20px;
+   
+    background-color: rgb(51, 41, 41);
+    color: #fff;
+}
+.threepage{
+    text-align: center;
+}
+.threepage h1{
+    padding: 20px 10px 60px 10px;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+
+@media screen  and(min-width:30px)and (max-width:1000px){
+  
+}
+    
