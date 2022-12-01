@@ -290,7 +290,8 @@ width: 88%;
 }
 .sixicon p{ 
     font-size: 25px;
-    width: 110px;
+    width: 100px;
+    height: 100px;
     margin: 5px;
     border-radius: 50%;
     padding: 30px;
