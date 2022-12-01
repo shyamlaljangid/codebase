@@ -157,6 +157,216 @@ width: 88%;
     font-size: 50px;
     font-weight: 900;
 }
+.fourthpage{
+    background: url("images/our-commitment-bg-1.jpeg")  no-repeat center /cover ;
+    padding: 3rem 1.5rem;
+   
+}
+.fourthpage .threebox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: 0 auto;
+    
+}
+.fbox{
+    border: 3px solid black;
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+    height: 240px;
+    width: 45%;
+    text-align: center;
+    border-radius: 15px;
+    background-color:rgba(0,0,0 ,0.8);
+   
+
+   
+    
+}
+.content{
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ align-items: center;
+ padding: 1rem;
+
+ z-index: 1;}
+.fbox img{
+    padding: 0.5rem;
+    height: 80px;
+    width: 100px;
+
+}
+.fourthpage h1{
+    color: #fff;}
+.fbox h3{
+        padding: 10px 0;
+    }
+.fbox p{
+    padding: 10px 0;
+}
+.fivepage{
+    background-color: #f1f1f1;
+}
+.fivecontent{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+   text-align: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.fivepage h1{
+    font-weight: 800;
+    width: 50%;
+    padding: 50px 10px 30px 10px;
+    margin: 0 auto;
+}
+.fivelistt{
+   
+    padding: 10px 25px;
+    margin: 15px;
+}
+.fivelistt span{
+    display: inline-block;
+    width: 300px;
+    text-align:left;
+    padding: 10px ;
+
+}
+.fivelistt h2{
+    padding: 10px;
+    text-align: left;
+}
+
+.fivelistt i{
+    display: flex;
+    text-align: left;
+    justify-content: left;
+    padding: 10px;
+    font-size: 40px;
+}
+
+.sixtop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sixleft{
+    width: 50%;
+}
+.sixright{
+    width: 50%;
+    padding-left: 80px;
+}
+.sixone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sixicon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sixcontant{
+    
+    width: 70%;
+    padding-left: 50px;
+}
+
+.sixcontant h2 {
+    width: 90%;
+    text-align: left;
+    font-size: 22px;
+}
+.sixcontant p{
+  text-align: left;
+  width: 90%;
+}
+.sixicon p{ 
+    font-size: 25px;
+    width: 110px;
+    margin: 5px;
+    border-radius: 50%;
+    padding: 30px;
+   border: 10px solid blue;
+    color: #1d06f0;
+}
+.sevenpage{
+    background-color: #5746f7;
+    text-align: center;
+    color: #f1f1f1;
+    display: flex;
+    
+   
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem 1rem 5rem 1rem;
+}
+.sevenpage h2{
+    font-size: 30px;
+    font-weight: 900;
+    width: 45%;
+    padding-bottom: 20px;
+margin: 0 auto;
+}
+.peragraph{
+    padding: 20px;
+}
+.peragraph span{
+    font-size: 20px;
+}
+.peragraph .dev{
+    padding: 10px 30px;
+    background-color: #260ff7;
+    color: #f1f1f1;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: 10px;
+}
+.peragraph .job{
+    margin: 10px;
+    padding: 10px 30px;
+    background-color: #948bec;
+    color: #f1f1f1;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.eightpage{
+    background-color: #1d06f0;
+    color: #fff;
+    padding: 5rem 8rem 8rem 8rem;
+}
+.eightpage h2{
+    padding-bottom: 10px;
+}
+.iconleft .lefticon{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.lefticon i{
+    padding: 5px 10px 5px 0;
+}
+.iconleft{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+
+}
+.iconleft ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.iconleft ul li{
+    padding-left: 30PX;
+}
 
 
 @media screen  and(min-width:30px)and (max-width:1000px){
